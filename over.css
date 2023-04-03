@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rancho&display=swap");
+
+.paralax {
+  background-image: url("Sources/mapSiang.png");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background: none;
+  color: white;
+}
+
+#navigasi {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ced3dc00;
+}
+
+#navigasi h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.stat {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: inline-block;
+  margin-top: 10px;
+
+}
+
+.stat h1 {
+  font-size: 3rem;
+}
+
+/* Hide the loading spinner by default */
+#loading-spinner {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 9999;
+}
+
+/* Center the spinner horizontally and vertically */
+.spinner-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

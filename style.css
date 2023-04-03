@@ -1,0 +1,275 @@
+/* CHOOSE CHARACTER MENU */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rancho&display=swap");
+
+.parallax {
+  background-image: url("Sources/mapSiang.png");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#navigasi {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ced3dc00;
+}
+
+#navigasi h1,
+button {
+  color: white;
+}
+
+#navigasi img {
+  width: 30px;
+}
+
+#selection h1 {
+  font-family: "Rancho", cursive;
+  font-size: 5vw;
+  font-weight: bold;
+  color: #8e6151;
+  text-shadow: black 2px 1.4px 0px;
+}
+
+#canvas1,
+#canvas2,
+#canvas3 {
+  width: 200px;
+  height: 200px;
+}
+
+.card {
+  transition: all 0.2s ease-in-out;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.245);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  background-color: #8e6151;
+  border: none;
+}
+
+.card-body button {
+  width: 100%;
+  border: none;
+  user-select: none;
+}
+
+#characterName {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* END CHOOSE CHARACTER MENU */
+#canvas4 {
+  border: 3px solid;
+  width: 95%;
+  height: 95%;
+}
+
+#buttons button {
+  border: none;
+  user-select: none;
+}
+
+#buttons .b1 img,
+.b4 img {
+  width: 50px;
+}
+
+#buttons .b2 img,
+.b3 img {
+  width: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  #buttons .b1 img,
+  .b4 img {
+    width: 30px;
+  }
+
+  #buttons .b2 img,
+  .b3 img {
+    width: 30px;
+  }
+}
+
+#buttons .b2 img {
+  transform: rotate(-90deg);
+}
+
+#buttons .b3 img {
+  transform: rotate(90deg);
+}
+
+#buttons .b4 img {
+  transform: rotate(180deg);
+}
+
+#start,
+#gameOver {
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  height: 200px;
+  width: 250px;
+  text-align: center;
+}
+
+#start a,
+#gameOver a {
+  border: 3px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  text-align: center;
+  font-size: 2em;
+  display: inline-block;
+}
+
+#start a:hover,
+#gameOver a:hover {
+  background-color: black;
+  color: #1bafdb;
+}
+
+.paralax {
+  background-image: url("Sources/mapSiang.png");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  background: none;
+  color: white;
+}
+
+#navigasi {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ced3dc00;
+}
+
+#navigasi h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.health-bar {
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.health-progress {
+  height: 100%;
+  background: linear-gradient(to right, #f50c0c, orange, #04f918);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.play-progress {
+  height: 100%;
+  background: linear-gradient(to right, #f50c0c, orange, #04f918);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.sleep-progress {
+  height: 100%;
+  background: linear-gradient(to right, #f50c0c, orange, #04f918);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hunger-progress {
+  height: 100%;
+  background: linear-gradient(to right, #f50c0c, orange, #04f918);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.stat {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#game-over {
+  background-color: white;
+}
+
+#heal-button,
+#feed-button,
+#sleep-button,
+#play-button {
+  border-radius: 5px;
+}
+
+#clock {
+  font-family: "Rancho", cursive;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#greeting {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+#level {
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMNGotcha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="parallax">
+    <audio autoplay>
+      <source src="Sources/music.mp3" type="audio/mpeg">
+    </audio>
+    <div class="container my-4">
+      <nav id="navigasi" class="navbar rounded">
+        <div class="container-fluid mx-3">
+          <h1 class="navbar-brand">UMNGotcha</h1>
+          <a href="aboutme.html"> <button id="About1" type="button" class="border-0">About Us</button></a>
+        </div>
+      </nav>
+      <div id="selection" class="text-center mt-5">
+        <h1>Let's Start The Adventure</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-5 mt-5">
+          <div class="col">
+            <div class="card rounded-bottom">
+              <div class="card-image">
+                <canvas id="canvas1"></canvas>
+              </div>
+              <div id="catCard" class="card-body rounded-bottom">
+                <button id="cat"><h5>Cat</h5></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-bottom">
+              <div class="card-image">
+                <canvas id="canvas2"></canvas>
+              </div>
+              <div id="goatCard" class="card-body rounded-bottom">
+                <button id="goat"><h5>Goat</h5></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card rounded-bottom">
+              <div class="card-image">
+                <canvas id="canvas3"></canvas>
+              </div>
+              <div id="dogCard" class="card-body rounded-bottom">
+                <button id="dog"><h5>Dog</h5></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <label for="characterName" class="form-label"><h5 style="color: white">Enter your name</h5></label>
+          <input type="email" class="form-control text-center" id="characterName" placeholder="Type here..." />
+        </div>
+        <button id="startMenu" type="button" class="btn mt-5" style="background-color: #3c4f76; color: white">Start</button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="Data/data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

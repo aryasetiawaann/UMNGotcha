@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.judul h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    line-height: 1.4em;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    font-size: 50px;
+}
+
+
+.card{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -10px -10px 20px rgba(168, 168, 168, 0.999),
+                10px 10px 20px rgba(179, 179, 179, 0.577);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.285), rgba(255, 255, 255, 0.285));
+    margin-top: 7px;
+    width: 300px;
+    height: auto;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+body.card-title h4{
+    margin-top: -40px;
+}
+
+.row{
+    gap: 20px;
+}
+
+.img img:nth-child(1){
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: auto;
+
+}
+
+.img img:nth-child(2){
+    position: relative;
+    display: block;
+    height: 140px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+}
+
+span{
+    font-size: 17px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--green);
+}
+
+.card-link{
+    padding-bottom: 10px;
+}
+
+[class*="fa-"]{
+    transition: 0.7s;
+}
+
+.fa-instagram:hover{
+    color: rgb(8, 246, 151) ;
+    transition: 0.5s;
+}
+
+.fa-github:hover{
+    color:  rgb(47, 255, 0);
+    transition: 0.5s;
+}
+
+.fa-whatsapp:hover{
+    color:  rgb(0, 255, 221);
+    transition: 0.5s;
+}
+
+
+footer {
+    margin: 0;
+    font-family: arial;
+    text-align: center;
+}
+  
+#bungkus2 {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+  
+#bungkus2 .atas{
+    justify-content: space-between;
+    width: 500px;
+    height: 150px;
+    margin: 10px auto;
+}
+  
+
+.atas p {
+    color: rgb(0, 0, 0);
+    width: 500px;
+}
